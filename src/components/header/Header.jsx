@@ -2,10 +2,12 @@ import React from "react";
 import "./Header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
+import { useState } from 'react'
 
 import batman from "../../assets/batman.png";
 
 const Header = () => {
+  const [activeNav,setActiveNav]=useState('#');
   return (
     <header>
       <div className="container header__container">

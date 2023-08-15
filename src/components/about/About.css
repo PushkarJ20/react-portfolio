@@ -1,0 +1,120 @@
+.about_h1 {
+  color: var(--color-primary);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
+  /* padding-top: 2rem; */
+}
+.about__container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  /* align-items: center; */
+  gap: 5%;
+
+  height: 80vh;
+}
+
+.about__me {
+  width: 100%;
+  aspect-ratio: 1/1.1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary, transparent)
+  );
+  display: grid;
+  place-items: center;
+}
+
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.about__cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.about__cards a {
+  width: 33%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  border-radius: 1.5rem;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  
+  gap: 0.5rem;
+}
+
+.about__content p {
+  
+  margin: 2rem 0 2.6rem;
+}
+
+
+/* Media queries for medium devices */
+
+@media screen and (max-width: 1024px){
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+
+    }
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+
+    }
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+/* Media queries for small devices */
+
+@media screen and (max-width:600px){
+    .about_h1{
+      margin-bottom: 1rem;
+      /* padding-top: 2rem; */
+    }
+    .about__me{
+        width: 50%;
+        margin: 0 auto -3rem;
+        aspect-ratio: 1/1;
+
+    }
+    .about__container{
+        flex-direction: column;
+        height: 90vh;
+    }
+    
+    .about__content{
+        text-align: center;
+        padding-top: -3rem;
+
+    }
+    .about__content p{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .about__cards a {
+      height: 30px ;
+      margin-top: -1rem;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+}
