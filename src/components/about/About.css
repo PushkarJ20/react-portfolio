@@ -4,15 +4,11 @@
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   margin-bottom: 3rem;
-  /* padding-top: 2rem; */
 }
 .about__container {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-evenly;
-  /* align-items: center; */
   gap: 5%;
-
   height: 80vh;
 }
 
@@ -86,11 +82,10 @@
 
 @media screen and (max-width:600px){
     .about_h1{
-      margin-bottom: 1rem;
-      /* padding-top: 2rem; */
+      margin-bottom: -2rem;
     }
     .about__me{
-        width: 50%;
+        width: 60%;
         margin: 0 auto -3rem;
         aspect-ratio: 1/1;
 
@@ -111,7 +106,7 @@
     }
 
     .about__cards a {
-      height: 30px ;
+      height: 50px ;
       margin-top: -1rem;
       margin-left: 5px;
       margin-right: 5px;

@@ -1,6 +1,6 @@
 nav{
     background: rgba(0,0,0,0.3);
-    width: max-content;
+    width: 30%;
     display: block;
     padding: 0.7rem 1.7rem;
     z-index: 2;
@@ -16,11 +16,14 @@ nav{
 
 nav a{
     background: transparent;
+    width: 20%;
     padding: 0.6rem;
-    border-radius: 50%;
+    border-radius:12rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--color-light);
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     
 }
 
@@ -33,5 +36,22 @@ nav a.active{
     background: gray;
     color: cyan;
     
+
+}
+
+@media screen and (max-width:600px){
+    nav {
+        width: max-content;
+    }
+    nav a{
+        
+        
+        border-radius:50%;
+        display: flex;
+        
+        
+        
+        
+    }
 
 }
