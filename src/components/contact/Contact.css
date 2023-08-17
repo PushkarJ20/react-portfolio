@@ -1,0 +1,8 @@
+.contact_h1{
+    color: var(--color-primary);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: 3rem;
+}
+

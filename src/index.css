@@ -118,6 +118,8 @@ img {
   object-fit: cover;
 }
 
+
+
 /* Media queries for medium devices */
 
 @media screen and (max-width: 1024px) {

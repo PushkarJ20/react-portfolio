@@ -14,7 +14,7 @@ import reacticon from "../../assets/reacticon.png";
 const Skills = () => {
   return (
     <section id="skills">
-      <h1 className="skills-h1">Skills</h1>
+      <h1 className="skills_h1">Skills</h1>
       <div className="skills_list">
         <div className="skills_list1">
           <img src={cssicon} alt="" />

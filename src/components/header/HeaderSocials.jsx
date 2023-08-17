@@ -8,9 +8,9 @@ import "./Header.css";
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="https://linkedin.com" target='#' className='sociallinks'><BsLinkedin/></a>
-        <a href="https://github.com" target='#' className='sociallinks'><BsGithub/></a>
-        <a href="https://api.whatsapp.com/send/?phone=8999765821&text&type=phone_number&app_absent=0" target='#' className='sociallinks'><BsWhatsapp/></a>
+        <a href="https://www.linkedin.com/in/pushkarj20/" target='#' className='sociallinks'><BsLinkedin/></a>
+        <a href="https://github.com/PushkarJ20" target='#' className='sociallinks'><BsGithub/></a>
+        <a href="https://api.whatsapp.com/send/?phone=+91 8999765821" target='#' className='sociallinks'><BsWhatsapp/></a>
 
         
     </div>

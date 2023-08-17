@@ -1,9 +1,8 @@
-.skills-h1 {
+.skills_h1 {
   color: var(--color-primary);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
-  padding-top: 3rem;
   margin-bottom: 3rem;
 }
 
